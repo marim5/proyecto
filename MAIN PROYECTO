@@ -1,0 +1,45 @@
+print ("==============ALGORITMOS Y PROGRAMACIÓN BÁSICA========")
+print ("======================Proyecto Final=================")
+print ("===============Aitana Leal Martin (24063)=============")
+print ("===================Maricarmen Mejia (24)=============")
+print ("===============Ana Isabel Orellana (24413)=============")
+
+import modulo_proyecto
+
+nombre=input("Ingresa tu nombre completo: ")
+modulo_proyecto.usuario(nombre)
+
+opcion=0
+
+while opción != "salir":
+    print("Elige una opción (<salir> para terminar)")
+    print("1. Contáctanos")
+    print("2. Principal")
+    print("3. Recorrido")
+    print("4. Testimonios")
+    print("5. Historias")
+    print("6. Q&A")
+    print("7. ¿UVG?")
+    print("8. ¿CUÁL?")
+    print("9. ANUNCIOS")
+    
+    opcion=int(input("Selecciona una opción: "))
+    
+    if opcion==1:
+        modulo_proyecto.contacto()
+    elif opción==2:
+        modulo_proyecto.principal()
+    elif opciion==3:
+        modulo_proyecto.recorrido()
+    elif opcion==4:
+        modulo_proyecto.testimonio()
+    elif opcion==5:
+        modulo_proyecto.historias()
+    elif opcion==6:
+        modulo.proyecto.qya()
+    elif opcion==7:
+        modulo_proyecto.uvg()
+    elif opcion==8:
+        modulo_proyecto.cual()
+    elif opcion==9:
+        modulo_proyecto.anuncios()
