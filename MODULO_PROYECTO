@@ -1,0 +1,18 @@
+def usuario(nombre):
+    print(nombre)
+
+
+def principal(parametro):
+    print ("Mujeres en ingenieria")
+
+def recorrido(parametro):
+    print("akjdfsh")
+
+def testimonios(parametro):
+    print("lkjhdf")
+
+def historias(parametro):
+    print("aksjdh")
+
+def qya(parametro):
+    print("lasidhuf")
