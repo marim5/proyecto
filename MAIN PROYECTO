@@ -1,8 +1,8 @@
 print ("==============ALGORITMOS Y PROGRAMACIÓN BÁSICA========")
 print ("======================Proyecto Final=================")
 print ("===============Aitana Leal Martin (24063)=============")
-print ("===================Maricarmen Mejia (24302)=============")
-print ("===============Ana Isabel Orellana (24413)=============")
+print ("===================Maricarmen Mejia Curley (24302)=============")
+print ("===============Ana Isabel Orellana Quiñonez (24413)=============")
 
 import modulo_proyecto
 
