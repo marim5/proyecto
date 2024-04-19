@@ -14,6 +14,6 @@ def testimonios(parametro):
 def historias(parametro):
     print("aksjdh")
 
-def qya(parametro):
-    print("lasidhuf")
-añljdfñljs
+def q_a(parametro):
+    print("Esta es una sección para que hagas todas las preguntas que tengas. No solo las responderemos sino que tendrás acceso a todas las preguntas que han hecho previamente.")
+    #hacer un diccionario en donde se almacene pregunta y respuesta o pueden iniciar sesión acá, llevar un contador de cuántas preguntas se hacen con iniciar sesión o
