@@ -1,0 +1,63 @@
+# print ("==============ALGORITMOS Y PROGRAMACIÓN BÁSICA========")
+# print ("======================Proyecto Final=================")
+# print ("===============Aitana Leal Martin (24063)=============")
+# print ("===================Maricarmen Mejia (24302)=============")
+# print ("===============Ana Isabel Orellana (24413)=============")
+
+form modulo import *
+
+# nombre = input("Ingresa tu nombre completo: ")
+# usuario(nombre)
+# no sé si será mejor pedir que se registren tipo en la sección de contacto para así medir a quienes les interesa iniciar sesión y a quienes no
+# o sino dar la opción de si quieren iniciar sesión
+
+opcion = 0
+
+while opción != "salir":
+    print("Elige una opción o escribe salir para terminar")
+    print()
+    print("1. Página principal")
+    print("2. Recorrido")
+    print("3. Testimonios")
+    print("4. Historias")
+    print("5. Q&A")
+    print("6. ¿Por qué la UVG?")
+    print("7. ¿Qué ingeniería debería seguir?")
+    print("8. Contáctanos")
+    print("9. ANUNCIOS")
+    print()
+    
+    opcion = input("Selecciona una opción: ")
+    #converitr a minúsculas si es alpha o a int si es numérico. no se puede poner int input porque al escribir salir daría error
+    
+    if opcion == 1:
+        principal()
+        
+    elif opción == 2:
+        recorrido()
+        
+    elif opciion == 3:
+        testimonio()
+        
+    elif opcion == 4:
+        historias()
+        
+    elif opcion == 5:
+        q_a()
+        #contador por cada vez que se hace una pregunta
+        
+    elif opcion == 6:
+        uvg()
+        #agregar un contador para cuantas veces escogen cada una de las carreras que se ofrecen en la u
+        
+    elif opcion == 7:
+        cual()
+        
+    elif opcion == 8:
+        contacto()
+        
+    elif opcion == 9:
+        anuncios()
+    
+    else:
+        print("Lo siento, no ingresaste una opción válida... Intenta de nuevo.")
